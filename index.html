@@ -10,9 +10,16 @@
     <h2>My audio</h2>
     <audio controls src="assets/audio/elephant-352698.mp3"></audio>
     <h3>My video</h3>
-    <video controls  src="./assets/video/3692634-hd_1920_1080_30fps.mp4"></video>
-   
-    
+    <video width="300px" controls  src="./assets/video/3692634-hd_1920_1080_30fps.mp4"></video>
+    <video id="myVideo" controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+<button onclick="document.getElementById('myVideo').play()">Play</button>
+
+</!-- You Tube Embedded -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-FxEYa8joK8?si=PD4XeRXPZCJF6lv_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+allow fullscreen></iframe>
+
     
 
 </body>
