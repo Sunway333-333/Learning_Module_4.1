@@ -9,3 +9,10 @@ nav li>a{
 footer{
     text-align: center;
 }
+/* form style */
+label {
+    display: block;
+    margin-bottom: 8px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
